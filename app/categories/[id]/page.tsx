@@ -56,11 +56,10 @@ export default async function CategoryPage({ params }: Props) {
               Статус
             </span>
             <span
-              className={`inline-flex items-center rounded-full px-3 py-1 sm:px-4 sm:py-1.5 text-xs sm:text-sm font-medium ${
-                category.isActive
-                  ? "bg-emerald-50 text-emerald-700"
-                  : "bg-gray-100 text-gray-500"
-              }`}
+              className={`inline-flex items-center rounded-full px-3 py-1 sm:px-4 sm:py-1.5 text-xs sm:text-sm font-medium ${category.isActive
+                ? "bg-emerald-50 text-emerald-700"
+                : "bg-gray-100 text-gray-500"
+                }`}
             >
               {category.isActive ? "Активна" : "Неактивна"}
             </span>
@@ -150,3 +149,4 @@ export default async function CategoryPage({ params }: Props) {
     </div>
   );
 }
+
