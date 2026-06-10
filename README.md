@@ -69,7 +69,7 @@ npm run dev
 
 ## API
 
-Базовый URL: `http://localhost:3000/api`
+Базовый URL: `https://expenses-tracker-app.up.railway.app/`
 
 ### Категории
 
@@ -229,3 +229,4 @@ npm run dev
 | `500` | Внутренняя ошибка сервера |
 
 Формат ошибки: `{ "error": "Описание ошибки" }`
+
