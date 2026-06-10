@@ -300,3 +300,4 @@ export default function NewExpensePage() {
     </div>
   );
 }
+
